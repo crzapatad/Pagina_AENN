@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    </head>
+
+    <style>
+        #navbar-container {
+  position: relative;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#navbar li:last-child {
+  margin-right: 0;
+}
+#logo-container {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 250px;
+        }
+        #logo-container span {
+            font-size: 100px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .navbar-links span {
+  font-size: 50px;
+  margin: 0 10px;
+  transition: all 0.5s ease-in-out; /* Duración de la transición y tipo de transición */
+}
+
+.navbar-links span:hover {
+  transform: scale(1.1); /* Escalar el elemento en un 10% al pasar el cursor sobre él */
+}
+#navbar {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: all 0.5s ease-out; /* Duración de la transición y tipo de transición */
+}
+
+
+
+
+
+
+    </style>
+
+    </head>
+
+    <body>
+
+        <div id="navbar-container">
+            <div id="logo-container">
+            <div class="navbar-links">
+              <!-- Aquí colocas tus 4 letras -->
+              <span>A</span>
+              <span>E</span>
+              <span>N</span>
+              <span>N</span>
+            </div>
+            </div>
+            <nav id="navbar">
+              <!-- Aquí colocas tu barra de navegación -->
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <script>
+            const navbarContainer = document.getElementById('navbar-container');
+            const navbar = document.getElementById('navbar');
+            navbarContainer.addEventListener('mouseover', () => {
+                navbar.style.display = 'block';
+            });
+            navbarContainer.addEventListener('mouseout', () => {
+                navbar.style.display = 'none';
+            });
+        </script>
+
+    </body>
+</html>
+  

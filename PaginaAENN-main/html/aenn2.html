@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AENN || Asociacion Estudiantil de Neurociencia y Neurotecnología</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="stylo.css">
+        <link rel="icon" type="image/png" href="logo3.png">
+        <!---->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Goldman&display=swap" rel="stylesheet">
+
+        <style>
+               .aenncentro{
+			text-align: center;
+			vertical-align: middle;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+        }
+            #navbar-container {
+  position: relative;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.navbar-links span {
+  font-size: 50px;
+  margin: 0 10px;
+}
+
+#navbar {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#navbar li:last-child {
+  margin-right: 0;
+}
+
+
+
+            .imagen-full {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+             .carousel {
+            width: 300px;
+            height: 300px;
+            margin:auto;
+            padding: 10px;
+          }
+          .carousel .carousel-thumbnail {
+            width: 80px;
+            height: 60px;
+          }
+          .nav-link{
+            color: white;
+            font-family: 'Goldman', cursive;
+          }
+
+
+            .nav-item {
+              color: #000;
+              font-size: 20px;
+              text-decoration: none;
+              transition: all 0.2s ease-in-out;
+            }
+            .nav-item:hover {
+              color: #fff;
+              background-color: #000;
+              padding: 5px;
+              border-radius: 5px;
+            }
+
+            .texto-morado{
+                color:blueviolet;
+                font-family: 'Goldman', cursive;
+                font-size: 100px;
+            }
+            .texto-verde{
+                color: greenyellow;
+                font-family: 'Goldman', cursive;
+                font-size: 100px;
+            }
+            .texto-azul{
+                color:aqua;
+                font-family: 'Goldman', cursive;
+                font-size: 100px;
+            }
+            .texto-magenta{
+                color: magenta;
+                font-family: 'Goldman', cursive;
+                font-size: 100px;
+            }
+            .texto-blanco{
+                color:white;
+                font-family: 'Goldman', cursive;
+                font-size: 100px;
+                
+            }
+            .texto-junto {
+             display: flex;
+             justify-content: center;
+             font-size:100px;
+            }
+            .texto-junto span {
+                font-weight: 650;
+                font-size: 4rem;
+                margin-right: 10px;
+                transition: all 0.3s ease;
+            }
+            .texto-junto span:hover {
+                transform: scale(1.2);
+                color: WHITE;
+            }
+
+            .nav-justify-content {
+                padding-top: 50px;
+                background-image: url("universo.jpg");
+                background-size: cover;
+            }
+            ul{
+                padding-top: 50px;
+                color: white;
+            }
+            li{
+              color:white;
+            }
+            footer {
+              color: white;
+            }
+            p{
+              color: white;
+              font-family: 'Abel', sans-serif;
+            }
+            .panal {
+                width: 1200px;
+                height: 1200px;
+            }
+            .panal img {
+                width: 200px;
+                height: 200px;
+                max-width: 100%;
+                max-height: 100%;
+                float: left;
+            }
+            .panal img:hover {
+                width: 300px;
+                height: 300px;
+            }
+            .panal img {
+                width: 200px;
+                height: 200px;
+                max-width: 100%;
+                max-height: 100%;
+                float: left;
+                transition: width 0.5s, height 0.5s;
+            }
+            .panal {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            justify-items: center;
+        }
+          
+          .image-cell img {
+            border: 2px solid black;
+          }
+          
+          .image-cell {
+            padding: 20px;
+          }
+          .container1 {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+            }
+          .texto-centrado{
+            font-family: 'Goldman', cursive;
+            margin-bottom:200px;
+            margin-left:600px;
+            background: linear-gradient(to right, purple, greenyellow);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 40px;
+        }
+        .texto-centrado2{
+            font-family:sans-serif;
+            margin-bottom:200px;
+            background: linear-gradient(to right, purple, greenyellow);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 16px;
+        }
+
+        h4{
+            font-family: 'Goldman', cursive;
+            background: linear-gradient(to right, purple, greenyellow);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 20px;
+        }
+        .imagen-hover {
+            transition: transform 0.3s ease-in-out;
+        }
+        .imagen-hover:hover {
+            transform: scale(1.1);
+        }
+        .col-md-6{
+            margin-top: 100px;
+        }
+     
+        .container{
+            text-align: center;
+        }
+        .image{
+            float: left;
+            margin-right: 10px;
+        }
+
+
+
+        </style>
+
+
+    </head>
+    <body>
+        <img src="gifaenn3.gif" class="imagen-full">
+
+        <div class="container">
+            <div class="row">
+             <div class="col-md-12">
+                <div class="texto-junto">
+              <div class="aenncentro">
+                <img src ="logosinfondoo.png" width ="100px" height="100px">
+                <span class="texto-morado">A</span>
+                <span class="texto-verde">E</span>
+                <span class="texto-azul">N</span>
+                <span class="texto-magenta">N</span>
+              </div>
+
+             </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>

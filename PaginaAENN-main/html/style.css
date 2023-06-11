@@ -1,0 +1,67 @@
+h1{
+    color:rgb(0, 0, 0);
+}
+
+
+/*Estilos generales*/
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Pixels', cursive;
+
+}
+
+
+
+/*seccion hero*/
+
+.hero {
+    background-color:aliceblue;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+
+
+}
+
+.hero-imagen-desarrollador{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: brown;
+}
+
+
+
+
+/* adaptable responsivo */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
+
+
+
+
+

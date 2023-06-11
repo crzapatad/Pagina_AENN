@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>AENN || Asociacion Estudiantil de Neurociencia y Neurotecnología</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="stylo.css">
+        <link rel="icon" type="image/png" href="logo3.png">
+        <!---->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Goldman&display=swap" rel="stylesheet">
+
+        <!---->
+
+
+
+        <ul class="nav-justify-content">
+            <div class="texto-junto">
+                <img src ="sinfondo.png" width ="100px" height="100px">
+                <span class="texto-blanco">A</span>
+                <span class="texto-blanco">E</span>
+                <span class="texto-blanco">N</span>
+                <span class="texto-blanco">N</span>
+              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="AENNOficial.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienesomos.html">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="principios.html">Principios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="fotos.html">Fotos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="productosaenn.html">Productos</a>
+            </li>
+        </ul>
+
+        <style>
+          .nav-justify-content{
+            display: flex;
+            flex-direction: row; /* Cambio a flex-direction: row */
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
+            background-color: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+          }
+
+
+          .carousel {
+            width: 300px;
+            height: 300px;
+            margin:auto;
+            padding: 10px;
+          }
+          .carousel .carousel-thumbnail {
+            width: 80px;
+            height: 60px;
+          }
+          .nav-link{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+
+            .nav-item {
+              color: #000;
+              font-size: 20px;
+              text-decoration: none;
+              transition: all 0.2s ease-in-out;
+            }
+            .nav-item:hover {
+              color: #fff;
+              background-color: #000;
+              padding: 5px;
+              border-radius: 5px;
+            }
+
+            .texto-morado{
+                color:blueviolet;
+                font-family: 'Goldman', cursive;
+            }
+            .texto-verde{
+                color: greenyellow;
+                font-family: 'Goldman', cursive;
+            }
+            .texto-azul{
+                color:aqua;
+                font-family: 'Goldman', cursive;
+            }
+            .texto-magenta{
+                color: magenta;
+                font-family: 'Goldman', cursive;
+            }
+            .texto-blanco{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 10px;
+            }
+            .texto-junto {
+             display: flex;
+             justify-content: center;
+            }
+            .texto-junto span {
+                font-weight: 650;
+                font-size: 3rem;
+                margin-right: 10px;
+                transition: all 0.3s ease;
+            }
+            .texto-junto span:hover {
+                transform: scale(1.2);
+                color: WHITE;
+            }
+
+            ul{
+                padding-top: 50px;
+                color: white;
+            }
+            li{
+              color:white;
+            }
+            footer {
+              color: white;
+            }
+            p{
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            .panal {
+                width: 1200px;
+                height: 1200px;
+            }
+            .panal img {
+                width: 200px;
+                height: 200px;
+                max-width: 100%;
+                max-height: 100%;
+                float: left;
+            }
+            .panal img:hover {
+                width: 300px;
+                height: 300px;
+            }
+            .panal img {
+                width: 200px;
+                height: 200px;
+                max-width: 100%;
+                max-height: 100%;
+                float: left;
+                transition: width 0.5s, height 0.5s;
+            }
+            .panal {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            justify-items: center;
+        }
+          
+          .image-cell img {
+            border: 2px solid black;
+          }
+          
+          .image-cell {
+            padding: 20px;
+          }
+          .container1 {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+            }
+          .texto-centrado{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom:200px;
+            margin-left:400px;
+            background: linear-gradient(to right, purple, greenyellow);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 40px;
+
+        }
+        .texto-centrado2{
+            font-family:Arial, Helvetica, sans-serif;
+            margin-bottom:200px;
+            background: linear-gradient(to right, purple, greenyellow);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 16px;
+        }
+
+        h4{
+            font-family:Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, purple, greenyellow);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 20px;
+        }
+        .imagen-hover {
+            transition: transform 0.3s ease-in-out;
+        }
+        .imagen-hover:hover {
+            transform: scale(1.1);
+        }
+        .col-md-6{
+            margin-top: 100px;
+        }
+        /*body{
+            background-image:
+        }*/
+        .clasee{
+              padding:200px;
+            }
+        .texto-centrado{
+          text-align: center;
+          margin-right: 200px;
+        }
+
+        </style>
+
+</head>
+
+<body>
+     
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <div class="clasee">
+    <div class="container-fluid">
+        <h1>
+          <span class="texto-centrado">Principios</span>
+        </h1>          
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <p>La Asociación Estudiantil de Neurociencia y Neurotecnología (AENN) 
+        tiene 5 principios que deben respetarse transversalmente
+        en todas sus actividades: </p>
+        <div class="texto-centrado2">
+        <p>1. Democratización del conocimmiento</p>
+        <p>2. Integridad científica</p>
+        <p>3. Igualdad de género</p>
+        <p>4. Respeto por todas las personas</p>
+        <p>5. Beneficencia y no maleficencia</p>
+        <h4>Nuestra Misión:</h4> 
+        <p>Construir una comunidad que genere
+            espacios interdisciplinarios en torno a la neurociencia
+             y neurotecnología para facilitar el acceso a estas disciplinas.
+        </p>
+        <h4>Nuestra Visión:</h4>
+        <p>una comunidad nacional de neurociencia
+            y neurotecnología que interconecte a todas las personas del país 
+            interesadas en estas disciplinas.</p>
+        <h4>Nuestro Objetivo:</h4>
+        <p>Acercar el conocimiento de la neurociencia
+            y neurotecnología a estudiantes de diversas carreras, mediante la realización
+            de actividades académicas y de difusión científica, con el fin 
+            de democratizar el conocimiento y la cultura neurocientífica.</p>
+        </div>
+    </div>
+      </div>
+    </div>
+
+
+    <div class = "container1">
+
+      <img src="Divulgacion.png" width="200px" height="200px" alt="Divulgación de conocimiento" class="imagen-hover">
+      <img src="integridad.png" width="200px" height="200px" class="imagen-hover">
+      <img src="igualdad.png" width = "200px" height="200px" class="imagen-hover">
+      <img src="respeto.png" width="200px" height="200px" class="imagen-hover">
+      <img src="Beneficiencia.png" width="200px" height="200px" class="imagen-hover">
+
+ 
+    </div>
+
+    <div class="container1">
+     
+        <h4>Divulgación</h4>
+        <h4>Integridad</h4>
+        <h4>Igualdad</h4>
+        <h4>Respeto</h4>
+        <h4>Beneficiencia</h4>
+        </div>
+    </div>
+
+</div>
+</div>
+
+<!--FOOTER-->
+<footer>
+    <div class="container">
+      <div class="row">
+    
+        <div class="col-md-6">
+          <h7>Contacto</h7>
+          <p>Correo electrónico: aenn@gmail.com</p>
+          <p>Teléfono: +56 9 1234 5678</p>
+        </div>
+        <div class="col-md-6">
+          <h7>Síguenos en: </h7>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+          <p class="text-center">
+            <span class="texto-morado">©</span>
+            <span class="texto-verde">2</span>
+            <span class="texto-azul">0</span>
+            <span class="texto-magenta">2</span>
+            <span class="texto-morado">3</span>
+             -- Todos los derechos reservados.
+          </p>
+       
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+
+
+</html>
